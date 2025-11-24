@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 
 export default function App() {
-  const API = "http://localhost:8000/chat";
+  const API = "https://vigo-41rp.onrender.com";
   const [message, setMessage] = useState("");
   const [chat, setChat] = useState([]);
   const messagesEndRef = useRef(null);
